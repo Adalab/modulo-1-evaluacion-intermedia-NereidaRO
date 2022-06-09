@@ -3,4 +3,28 @@
     --text-menu: #4a4a4a;
     --backg-color: #3CDBC0;
     --title-color: #FFFFFF;
+    --backg-header: white;
+}
+
+.logo{
+    width: 155px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.header{
+    width: 100vw; /*todo el ancho de la pantalla*/
+    background-color: var(--backg-header);
+    font-family: var(--font-family);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 13px;
 }
