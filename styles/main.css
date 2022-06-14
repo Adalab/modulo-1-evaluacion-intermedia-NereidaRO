@@ -18,9 +18,7 @@ body {
 
 .header {
     width: 100vw;
-    /*todo el ancho de la pantalla*/
     background-color: var(--backg-header);
-    /*font-family: var(--font-family);*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,12 +49,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*font-family: var(--font-family);*/
 }
 
 .title {
     color: var(--title-color);
-    /* font-family: var(--font-family);*/
     font-size: 30px;
     font-weight: 600;
     margin-left: 20%;
